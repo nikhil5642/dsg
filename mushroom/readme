@@ -1,0 +1,9 @@
+First I loaded all the given mushroom_train and mushroom_test data using pandas library into train and test
+Droped 'veil-type' column because all of its values are same.
+Label encoding every column for further preprocessing
+plotted a violin plot for every column of train set againt 'class' column of train set.
+The best plot I got was of 'odor' against 'class' because maximum data is getting directly mapped
+
+Then by filtering we get the data not directly mapped and stored it in 'remaining' dataframe.
+
+again ploting plotted a violin plot for every column of 'remaining' set againt 'class' column of 'remaining' set.
